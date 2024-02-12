@@ -110,6 +110,4 @@ describe('readFileAsynchronously', () => {
 
     expect(result).toBeNull;
   });
-
-  // test('should return file content if file exists', async () => {});
 });
