@@ -80,15 +80,14 @@ describe('throttledGetDataFromApi', () => {
   // });
 
   test('should create instance with provided base url', async () => {
-  //   const createInstance = jest.spyOn(axios, 'create');
-
-  //   try {
-  //     await throttledGetDataFromApi(__dirname);
-  //   } catch {
-  //     expect(createInstance).toHaveBeenCalledWith({
-  //       baseURL: 'https://jsonplaceholder.typicode.com',
-  //     });
-  //   }
+    //   const createInstance = jest.spyOn(axios, 'create');
+    //   try {
+    //     await throttledGetDataFromApi(__dirname);
+    //   } catch {
+    //     expect(createInstance).toHaveBeenCalledWith({
+    //       baseURL: 'https://jsonplaceholder.typicode.com',
+    //     });
+    //   }
   });
 
   // test('should perform request to correct provided url', async () => {
